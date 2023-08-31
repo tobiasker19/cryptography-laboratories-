@@ -22,7 +22,7 @@ def caesar_decrypt(message, shift):
             decrypted_message += chr(char_code)
         else:
             decrypted_message += char
-    return decrypted_message
+    return decrypted_message 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
